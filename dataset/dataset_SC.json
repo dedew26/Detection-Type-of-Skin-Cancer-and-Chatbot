@@ -1,0 +1,417 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "mba",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan",
+          "holla",
+          "bang",
+          "kak",
+          "mince"
+        ],
+        "responses": [
+          "Hai! Scbot di sini. Mau tau informasi tentang apa nih?",
+          "Halo! Saya Scbot, salam kenal ya!",
+          "Helo! Ini Scbot, apakah anda ingin bertanya sesuatu?",
+          "Holla! ini Scbot, kalau mau ingin lebih tau tanya ke Scbot ya!"
+        ]
+      },
+      {
+        "tag": "scbot",
+        "patterns": [
+          "Apa itu Scbot?",
+          "Siapa Scbot?"
+        ],
+        "responses": [
+          "Scbot adalah singkatan dari Skin Cancer Chatbot, aku bertugas memberikan informasi tentang apakah anda terkena kanker kulit atau tidak berdasarkan data yang anda berikan",
+          "Scbot adalah sumber informasi Seputar Kanker Kulit.",
+          "Scbot adalah mince , mince adalah Scbot."
+        ]
+      },
+      {
+        "tag": "pencipta_scbot",
+        "patterns": [
+          "Siapa pencipta Scbot?",
+          "Siapa yang menciptakan mince?",
+          "Siapa pencetus Scbot?",
+          "Siapasih yang membuat Scbot?"
+        ],
+        "responses": [
+          "Scbot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif, kekompakkan team dan semangat team yang luar biasa hingga mereka berhasil menciptakan saya",
+          "Pencipta Scbot berasal dari mahasiswa dan mahasiswi lho! salam hangat^^",
+          "Pencetus Scbot berasal dari mahasiswa dan mahasiswi yang kreatif, sehingga saya bisa hadir saat ini!",
+          "Pencipta Scbot ini sangat berhati mulia dan senang hati menjawab pertanyaan kalian^^"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bhay",
+          "See you",
+          "Seee yaa"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye! Have a good day!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu",
+          "Hehe dadah^^"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati :)",
+          "Sama-sama^^",
+          "Datang lagi ya ke Scbot^^"
+        ]
+      },
+      {
+        "tag": "basa-basi1_user_ke_scbot",
+        "patterns": [
+          "aku ingin nanya nih",
+          "aku ingin tanya seputar apliksi ini",
+          "aku mau ngasih pertanyaan ke kamu ini",
+          "aku nanya seputar aplikasi ini",
+          "aku mau nanya tentang aplikasi Scbot nih",
+          "Mau nanya nich",
+          "Nanya nih",
+          "Mau nanya nih",
+          "Saya mau menanyakan beberapa hal.",
+          "Saya ingin menanyakan beberapa hal"
+          
+        ],
+        "responses": [
+          "Apa itu?",
+          "Baiklah, saya Scbot akan jawab pertanyaan kamu nih.... tentang apa?",
+          "Pertanyaan apa itu?",
+          "Tentu, silakan tanyakan! Saya Scbot dengan senang hati menjawab pertanyaan apapun yang Anda tanyakan. Apa yang ingin Anda ketahui?"
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar1(pengertian)_skincancer",
+        "patterns": [
+          "Apa itu Skin Cancer atau Kanker Kulit?",
+          "Apa itu Skin Cancer?",
+          "Skin Cancer?",
+          "Apa itu kanker kulit?",
+          "Apa itu Kanker?",
+          "Kanker?",
+          "Coba jelaskan apa itu Skin Cancer?",
+          "Coba jelaskan apa yang dimaksud dengan Skin Cancer",
+          "Bagaimana menurutmu tentang Skin Cancer?",
+          "Menurutmu apa itu Skin Cancer",
+          "Menurutmu apa itu Kanker"
+        ],
+        "responses": [
+          "Skin Cancer atau Kanker Kulit adalah jenis kanker yang muncul pada jaringan kulit. Munculnya kondisi ini ditandai dengan terjadinya perubahan pada kulit, seperti terdapat benjolan, tahi lalat, atau bercak yang bentuk dan ukurannya tidak normal.",
+          "Kanker adalah gangguan kesehatan yang terjadi karena adanya pertumbuhan sel abnormal dan tidak terkendali di dalam tubuh."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar2(fungsi)_scbot",
+        "patterns": [
+          "Fungsi Scbot itu apa?",
+          "Fungsi Scbot apasih?",
+          "Fungsinya apa?",
+          "Coba jelaskan fungsi Scbot itu apa?",
+          "Coba jelaskan bagaimana fungsi Sbot?",
+          "Coba jelaskan fungsi Scbot itu?",
+          "Menurut kamu fungsi Scbot itu apa?"
+        ],
+        "responses": [
+          "Fungsi Scbot adalah untuk memberikan informasi seputar kanker kulit."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar3(penyebab)_skincancer",
+        "patterns": [
+          "Apasih penyebab Skin Cancer?",
+          "Apasih penyebab Kanker Kulit?",
+          "Apa saja penyebab Kanker Kulit?",
+          "Apa penyebab Skin Cancer?",
+          "Kanker Kulit disebabkan oleh apa?",
+          "Disebabkan oleh apa Kanker Kulit?"
+          
+        ],
+        "responses": [
+          "Penyebab Skin Cancer atau Kanker Kulit ada 2 faktor yakni faktor internal dan faktor eksternal. Faktor internal berasal dari adanya riwayat penyakit kanker dalam keluarga, pemilik kulit putih, adanya tahi lalat, memiliki imunitas tubuh yang lemah munculnya solar keratosis. Sedangkan faktor eksternal berasal dari paparan cahaya matahari, paparan radiasi, paparan senyawa atau bahan kimia"
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar4(gejala)_skincancer",
+        "patterns": [
+          "Apa saja gejala Kanker Kulit?",
+          "Apa gejala Skin Cancer?"
+  
+        ],
+        "responses": [
+          "Gejala Kanker Kulit diantaranya adalah Karsinoma sel basal yakni ditandai dengan munculnya benjolan lunak dan mengilat pada permukaan kulit, Karsinoma sel skuamosa yakni ditandai dengan munculnya benjolan berwarna merah dan keras pada kulit, dan Kanker kulit melanoma yakni ditandai dengan munculnya bercak atau benjolan yang berwarna cokelat"
+        ]
+
+      },
+      {
+        "tag": "Cara_menggunakan_aplikasi_prediksi_skincancer",
+        "patterns": [
+          "Bagaimana cara menggunakan aplikasi ini?",
+          "Bagaimana cara memakai aplikasi ini",
+          "Cara makenya gimana?",
+          "makai aplikasi ini gimana?",
+          "trus makai ni aplikasi gimana?",
+          "Gunainnya gimana?",
+          "Terus cara pakai aplikasi ini gimana?"
+        ],
+        "responses": [
+          "Menggunakan aplikasi ini harus menyiapkan foto kanker kulit yang akan diprediksi"
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar5(pengobatan)_skincancer",
+        "patterns": [
+          "Apakah ada pengobatan Kanker Kulit?",
+          "Apakah Kanker Kulit bisa diobati?",
+          "Bagaimana pengobatan Kanker Kulit"
+        ],
+        "responses": [
+          "Pengobatan kanker kulit bergantung pada jenis, lokasi, dan stadium kanker kulit yang dialami pengidap. Ada beberapa pilihan pengobatan yang dapat dilakukan, yaitu: Penggunaan Krim, Krioterapi,Operasi atau Bedah, Kuretase, Radioterapi, Kemoterapi dan Terapi Biologis "
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar6(jenis)_skincancer",
+        "patterns": [
+          "Apa saja jenis kanker kulit?",
+          "Apa aja sih jenis kanker kulit?"
+        ],
+        "responses": [
+          "Jenis Kanker Kulit adalah sebagai berikut: Actinic Keratosis, Basal Cell Carcinoma, Dermatofibroma, Melanoma, Nevus, Seborrheric Keratosis, Vascular Lesion"
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar7(jenis1)_skincancer",
+        "patterns": [
+          "Apa itu Actinic Keratosis?",
+          "Actinic Keratosis itu apasih?"
+        ],
+        "responses": [
+          "Actinic keratosis atau sering juga disebut solar keratosis, adalah gangguan yang menyebabkan kulit kasar dan bersisik akibat paparan ultraviolet dari sinar matahari dalam waktu lama (umumnya selama bertahun-tahun)"
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar8(penyebabjenis1)_skincancer",
+        "patterns": [
+          "Apa penyebab Actinic Keratosis?",
+          "Penyebab Actinic Keratosis apasih?"
+        ],
+        "responses": [
+          "Actinic keratosis adalah hasil dari perkembangan sel kulit yang tidak normal disebabkan oleh kerusakan DNA akibat ultraviolet B (UVB) dengan panjang gelombang pendek yang umumnya dari sinar matahari."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar9(jenis2)_skincancer",
+        "patterns": [
+          "Apa itu Basal Cell Carcinoma?",
+          "Basal Cell Carcinoma itu apasih?"
+        ],
+        "responses": [
+          "Karsinoma sel basal adalah salah satu jenis kanker kulit yang ditandai dengan kemunculan benjolan yang mudah berdarah."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar10(penyebabjenis2)_skincancer",
+        "patterns": [
+          "Apa penyebab Basal Cell Carcinoma?",
+          "Penyebab Basal Cell Carcinoma itu apasih?"
+        ],
+        "responses": [
+          "Penyebab utama dari karsinoma sel basal adalah paparan sinar UV dari matahari atau tanning beds."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar11(jenis3)_skincancer",
+        "patterns": [
+          "Apa itu Dermatofibroma?",
+          "Dermatofibroma itu apasih?"
+        ],
+        "responses": [
+          "Dermatofibroma adalah suatu kondisi kulit yang tampak seperti pertumbuhan jaringan yang berukuran kecil dan bulat."
+        ]
+            },
+      {
+        "tag": "penjelasan_seputar12(penyebabjenis3)_skincancer",
+        "patterns": [
+          "Apa penyebab Dermatofibroma?",
+          "Penyebab Dermatofibroma itu apasih?"
+        ],
+        "responses": [
+          "Dermatofibroma disebabkan oleh pertumbuhan berlebih dari campuran berbagai jenis sel pada lapisan dermis kulit. Penyebab utama munculnya dermatofibroma, tidak diketahui."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar13(jenis4)_skincancer",
+        "patterns": [
+          "Apa itu Melanoma?",
+          "Melanoma itu apasih?"
+        ],
+        "responses": [
+          "Melanoma adalah jenis kanker kulit yang paling serius. Penyakit kulit ini berkembang pada sel (melanosit) yang memproduksi melanin atau pigmen yang memberi warna pada kulit. Melanoma juga bisa terbentuk di mata dan di dalam tubuh, seperti di hidung atau tenggorokan, namun lebih jarang terjadi."
+        ]
+            },
+      {
+        "tag": "penjelasan_seputar14(penyebabjenis4)_skincancer",
+        "patterns": [
+          "Apa penyebab Melanoma?",
+          "Penyebab Melanoma itu apasih?"
+        ],
+        "responses": [
+          "Melanoma terjadi ketika ada yang tidak beres pada sel penghasil melanin (melanosit) yang memberi warna pada kulit. Biasanya, sel-sel kulit berkembang dengan cara yang terkendali dan teratur. Misalnya, sel-sel baru yang sehat mendorong sel-sel yang lebih tua ke permukaan kulit, dimana mereka mati dan akhirnya rontok."
+        ]
+       },
+      {
+        "tag": "penjelasan_seputar15(jenis5)_skincancer",
+        "patterns": [
+          "Apa itu Nevus?",
+          "Nevus itu apasih?"
+        ],
+        "responses": [
+          "Nevus adalah bercak berwarna yang terdapat di atas permukaan kulit. Bercak berwarna ini berasal dari sel-sel melanosit, yakni pembentuk warna kulit dan rambut."
+        ]
+            },
+      {
+        "tag": "penjelasan_seputar16(penyebabjenis5)_skincancer",
+        "patterns": [
+          "Apa penyebab Nevus?",
+          "Penyebab Nevus itu apasih?"
+        ],
+        "responses": [
+          "Nevus disebabkan oleh sel-sel melanosit, yakni pembentuk warna kulit dan rambut, di satu area kulit. Padahal, seharusnya sel melanosit tersebar merata pada permukaan kulit. Efeknya, pigmen yang dihasilkan juga berkumpul serta memberikan warna yang lebih gelap."
+        ]
+       },
+      {
+        "tag": "penjelasan_seputar17(jenis6)_skincancer",
+        "patterns": [
+          "Apa itu Seborrheric Keratosis?",
+          "Seborrheric Keratosis itu apasih?"
+        ],
+        "responses": [
+          "Keratosis seboroik adalah benjolan seperti kutil yang tumbuh di permukaan kulit dan bisa bertambah seiring waktu. Kondisi ini lebih sering terjadi pada orang dewasa, terutama yang lanjut usia."
+        ]
+            },
+      {
+        "tag": "penjelasan_seputar18(penyebabjenis6)_skincancer",
+        "patterns": [
+          "Apa penyebab Seborrheric Keratosis?",
+          "Penyebab Seborrheric Keratosis itu apasih?"
+        ],
+        "responses": [
+          "Keratosis seboroik terjadi ketika sel-sel di kulit tumbuh secara tidak normal. Belum diketahui secara pasti penyebab keratosis seboroik. Namun, kondisi tersebut berkaitan dengan faktor usia diatas 40 tahun, sering terpapar sinar matahari, memiliki keluarga yang pernah menderita keratosis seboroik. "
+        ]
+       },
+      {
+        "tag": "penjelasan_seputar19(jenis7)_skincancer",
+        "patterns": [
+          "Apa itu Vascular Lesion?",
+          "Vascular Lesion itu apasih?"
+        ],
+        "responses": [
+          "Lesi vaskular adalah kelainan yang relatif umum pada kulit dan jaringan di bawahnya, lebih dikenal sebagai tanda lahir. Ada tiga kategori utama lesi vaskular: Hemangioma, Malformasi Vaskular, dan Granuloma Piogenik. Meskipun tanda lahir ini terkadang terlihat serupa, masing-masing berbeda dalam hal asal dan perawatan yang diperlukan."
+        ]
+            },
+      {
+        "tag": "penjelasan_seputar20(penyebabjenis7)_skincancer",
+        "patterns": [
+          "Apa penyebab Vascular Lesion?",
+          "Penyebab Vascular Lesion itu apasih?"
+        ],
+        "responses": [
+          "Lesi vaskular adalah kelainan yang relatif umum pada kulit dan jaringan di bawahnya, lebih dikenal sebagai tanda lahir."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar21(pencegahan)_skincancer",
+        "patterns": [
+          "Bagaimanan cara mencegah Kanker Kulit?",
+          "Cara mencegah Kanker Kulit?"
+        ],
+        "responses": [
+          "Salah satu cara paling baik yang bisa dilakukan untuk mencegah kanker kulit adalah memberikan perlindungan pada kulit dari paparan sinar ultraviolet."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar22(perbedaan)_skincancer",
+        "patterns": [
+          "Bagaimana cara membedakan antara tanda-tanda kanker kulit dan kondisi kulit biasa?"
+        ],
+        "responses": [
+          "Penting untuk berkonsultasi dengan dokter atau ahli kulit untuk membedakan tanda-tanda kanker kulit dan kondisi kulit biasa. Dokter biasanya akan memeriksa kulit Anda, memperhatikan ukuran, bentuk, dan warna tahi lalat atau lesi kulit yang mencurigakan, serta melakukan tes atau biopsi jika diperlukan."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar23(diagnosa)_skincancer",
+        "patterns": [
+          "Bagaimana proses pengujian dan diagnosis kanker kulit dilakukan??"
+        ],
+        "responses": [
+          "Proses pengujian dan diagnosis kanker kulit melibatkan pemeriksaan fisik, pengumpulan riwayat medis, serta pemeriksaan visual dan perabaan kulit oleh dokter atau ahli kulit. Jika ada tanda-tanda mencurigakan, biopsi kulit dapat dilakukan untuk mengambil sampel jaringan yang kemudian akan dianalisis di laboratorium."
+        ]
+      },
+      {
+        "tag": "penjelasan_seputar24(perbedaan2)_skincancer",
+        "patterns": [
+          "Apa perbedaan antara kanker kulit melanoma dan kanker kulit non-melanoma??"
+        ],
+        "responses": [
+          "Kanker kulit melanoma dan kanker kulit non-melanoma adalah dua jenis kanker kulit yang berbeda. Melanoma adalah jenis kanker kulit yang berasal dari sel-sel melanosit, sedangkan kanker kulit non-melanoma mencakup karsinoma sel basal dan karsinoma sel skuamosa yang berasal dari sel-sel kulit lainnya. Melanoma memiliki potensi lebih tinggi untuk menyebar ke bagian tubuh lainnya, sementara kanker kulit non-melanoma biasanya tumbuh secara lokal dan lebih jarang menyebar.."
+        ]
+      },
+      {
+        "tag": "pertanyaan_random1_aplikasi_prediksi_skincancer",
+        "patterns": [
+          "Apa Scbot bisa hidup?"
+        ],
+        "responses": [
+          "Menurut kamu? hehe",
+          "Aku sudah hidup loh."
+        ]
+      },
+      {
+        "tag": "pertanyaan_random2_aplikasi_prediksi_skincancer",
+        "patterns": [
+          "Apa Scbot bisa mati?",
+          "Kamu bisa mati?"
+        ],
+        "responses": [
+          "Aku bisa mati kalau ada yang matiin aku Hehe."
+        ]
+      }
+    ]
+  }
